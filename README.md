@@ -14,7 +14,8 @@
 
 **✅ Part 2. Edge Detection**
 - Gaussian filter 적용
-- Sobel filter(edge 검출을 위해) 적용 -> x, y 방향의 gradient와 magnitude 계산
+- Sobel filter(edge 검출을 위해) 적용
+  - x, y 방향의 gradient와 magnitude 계산
 - Non-Maximum Suppression (NMS) 함수 구현(non_maximum_suppression_dir)
   - 8개 방향 중 가까운 각도로 Direction Quantization
   - 주변 픽셀과 비교하여 suppress
@@ -34,7 +35,8 @@
 -  Interactive 2D transformations
 
 **✅ Part 2. Homography**
-- ORB 측징 추출, Hamming 거리 기반의 ORB descriptor 유사도 측정(built-in matcher 사용 금지)
+- ORB 측징 추출, Hamming 거리 기반의 ORB descriptor 유사도 측정
+  - (built-in matcher 사용 금지)
 - Normalization
 - RANSAC을 통한 Homography 계산
 - Image wraping
